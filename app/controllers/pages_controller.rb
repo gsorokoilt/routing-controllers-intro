@@ -1,7 +1,7 @@
 class PagesController < ApplicationController
 
   def welcome
-    render :welcome
+    render = :welcome
   end
 
   def about
