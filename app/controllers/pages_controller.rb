@@ -6,18 +6,21 @@ class PagesController < ApplicationController
   end
 
   def about
-    render  :about
+    render :about
   end
 
   def contest
-    flash[:notice] = "Sorry, the contest has ended"
-    redirect_to '/welcome'
+     flash[:notice] = "Sorry, the contest has ended"
+     redirect_to '/welcome'
+    render :contest
   end
 
   def kitten
+
     end
 
     def kittens
+
       end
 
   def set_kitten_url
