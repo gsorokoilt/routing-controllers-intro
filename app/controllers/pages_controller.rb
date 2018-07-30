@@ -2,7 +2,7 @@ class PagesController < ApplicationController
   before_action :set_kitten_url, only: [:kitten, :kittens]
 
   def welcome
-    render = :welcome
+    render  :welcome
   end
 
   def about
